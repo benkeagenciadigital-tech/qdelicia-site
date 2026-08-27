@@ -8,7 +8,10 @@ Site estático (HTML + CSS + JS em arquivo único). **Não precisa de build, Nod
 
 | Arquivo | O que é |
 |---|---|
-| `index.html` | A página do site — versão aprovada |
+| `index.html` | A página principal do site — versão aprovada |
+| `receitas.html` | Página de receitas (Torta Holandesa, Affogato, Cestinha de Churros) |
+| `img_hero_receitas.jpg` | Imagem de capa da página de receitas |
+| `img_receita_torta_holandesa.png`, `img_receita_affogato.png`, `img_receita_churros.png` | Fotos das receitas |
 | `Logo branca.png` | Logo usada no menu e no rodapé |
 | `img_morango.png` | Imagem da linha Frutas |
 | `img_napolitano_zero.png` | Imagem da linha Zero Açúcar |
@@ -76,4 +79,4 @@ Tudo dentro do próprio `index.html`:
 ## 5. Referência online
 
 Versão publicada para comparação: https://qdelicia-site.vercel.app
-Código-fonte: https://github.com/brunobenkedaronco-sketch/qdelicia-site
+Código-fonte oficial: https://github.com/benkeagenciadigital-tech/qdelicia-site

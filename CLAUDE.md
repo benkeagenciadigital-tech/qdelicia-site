@@ -42,14 +42,10 @@ Pontos de referência dentro do `index.html`:
 - Tempo de troca dos vídeos → constante `FADE` (ms) no script
 
 ## Fotos dos produtos
-As ~76 fotos de produto NÃO estão no repositório: carregam do Google Drive via
-`https://lh3.googleusercontent.com/d/{ID}`. Funciona, mas é frágil (o Google
-limita quando muitas carregam juntas, e mudança de permissão derruba todas).
-Migrar pro servidor é melhoria pendente.
-
-## Pendência aberta
-- Migrar as fotos de produto do Google Drive pro repositório (ver acima).
-- (Resolvido em 22/10/2026: a foto do sabor 3 Chocolates, `img_3chocolates.png`, foi adicionada.)
+Todas as fotos de produto estão no repositório (migradas do Google Drive em 22/10/2026),
+na raiz, com nome `img_<categoria>_<sabor>.png` (cards de categoria: `img_cat_*.png`).
+Referência no `FLAVORS` é `img:'local:arquivo.png'`. Foto nova = adicionar o PNG na raiz
+e apontar `local:` pra ele.
 
 ## Fluxo de trabalho
 pasta local → commit → push na `main` → Vercel publica sozinha.
